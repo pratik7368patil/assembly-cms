@@ -1,0 +1,23 @@
+.c-input-container {
+  display: flex;
+}
+.c-input-field {
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  outline: none;
+  border-radius: 3px;
+  padding: 10px;
+  resize: none;
+}
+.c-input-field:focus {
+  background-color: #a8a8a810;
+}
+.type-indicator {
+  color: #a8a8a870;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
